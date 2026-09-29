@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Falonchi Santexnik — Toshkentda santexnika xizmatlari</title>
+  <meta name="description" content="Falonchi Santexnik — Toshkent bo‘ylab santexnika xizmatlari: kran va smesitel o‘rnatish, unitaz, rakovina, sifon, quvur ta’miri va kanalizatsiya tozalash. Telefon: +998 90 123 45 67.">
+  <meta name="keywords" content="santexnik Toshkent, santexnika Toshkent, santexnik xizmatlari, smesitel o‘rnatish, unitaz o‘rnatish, rakovina o‘rnatish, quvur ta’miri, kanalizatsiya tozalash">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b1220">
+
+  <!-- Sayt domeni paydo bo‘lgach, quyidagi canonical manzilni o‘zingizning domeningizga almashtiring. -->
+  <!-- <link rel="canonical" href="https://SIZNING-DOMENINGIZ.uz/"> -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Falonchi Santexnik — Toshkent">
+  <meta property="og:description" content="Toshkent bo‘ylab santexnika xizmatlari. Qo‘ng‘iroq qiling: +998 90 123 45 67">
+  <meta property="og:locale" content="uz_UZ">
+
+  <style>
+    :root{
+      --bg:#07111f;
+      --bg2:#0c1829;
+      --card:#101f33;
+      --card2:#14263d;
+      --text:#f7fbff;
+      --muted:#aab8c9;
+      --accent:#20d6a1;
+      --accent2:#1ca9ff;
+      --line:rgba(255,255,255,.09);
+      --shadow:0 20px 60px rgba(0,0,0,.28);
+      --radius:22px;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:
+        radial-gradient(circle at 85% 10%,rgba(28,169,255,.15),transparent 28%),
+        radial-gradient(circle at 15% 30%,rgba(32,214,161,.10),transparent 25%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    .topbar{
+      position:sticky;top:0;z-index:50;
+      backdrop-filter:blur(18px);
+      background:rgba(7,17,31,.78);
+      border-bottom:1px solid var(--line);
+    }
+    nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .logo{font-weight:900;font-size:20px;letter-spacing:-.5px}
+    .logo span{color:var(--accent)}
+    .navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}
+    .navlinks a:hover{color:#fff}
+    .navcall{
+      background:var(--accent);color:#03130e;font-weight:800;
+      padding:11px 16px;border-radius:12px;white-space:nowrap
+    }
+
+    .hero{padding:86px 0 70px}
+    .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:50px;align-items:center}
+    .badge{
+      display:inline-flex;align-items:center;gap:8px;
+      color:#bafbea;background:rgba(32,214,161,.09);
+      border:1px solid rgba(32,214,161,.22);
+      padding:8px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:22px
+    }
+    .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent)}
+    h1{font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-3px;max-width:760px}
+    h1 span{background:linear-gradient(90deg,var(--accent),#62d8ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero p{color:var(--muted);font-size:18px;max-width:650px;margin:24px 0 30px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:9px;
+      padding:15px 21px;border-radius:14px;font-weight:850;border:1px solid var(--line)
+    }
+    .btn-primary{background:var(--accent);color:#03130e;border-color:transparent}
+    .btn-secondary{background:rgba(255,255,255,.04)}
+    .btn-secondary:hover{background:rgba(255,255,255,.08)}
+
+    .hero-card{
+      background:linear-gradient(145deg,rgba(20,38,61,.95),rgba(10,25,42,.92));
+      border:1px solid var(--line);border-radius:30px;padding:28px;box-shadow:var(--shadow);
+      position:relative;overflow:hidden
+    }
+    .hero-card:before{
+      content:"";position:absolute;width:180px;height:180px;right:-70px;top:-70px;
+      background:rgba(32,214,161,.18);filter:blur(35px);border-radius:50%
+    }
+    .tool-icon{
+      width:70px;height:70px;border-radius:20px;display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--accent2),var(--accent));
+      color:#06111d;font-size:34px;margin-bottom:22px
+    }
+    .hero-card h3{font-size:25px;margin-bottom:10px}
+    .hero-card p{color:var(--muted);font-size:15px}
+    .mini-list{margin-top:22px;display:grid;gap:12px}
+    .mini-list div{display:flex;align-items:center;gap:10px;color:#dbe7f4;font-size:14px}
+    .check{color:var(--accent);font-weight:900}
+
+    section{padding:78px 0}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}
+    .eyebrow{color:var(--accent);font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}
+    h2{font-size:clamp(30px,4vw,45px);line-height:1.1;letter-spacing:-1.5px}
+    .section-head p{color:var(--muted);max-width:560px}
+
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service{
+      padding:24px;background:rgba(16,31,51,.8);border:1px solid var(--line);
+      border-radius:var(--radius);transition:.25s
+    }
+    .service:hover{transform:translateY(-4px);border-color:rgba(32,214,161,.35)}
+    .service .icon{font-size:30px;margin-bottom:17px}
+    .service h3{font-size:19px;margin-bottom:8px}
+    .service p{color:var(--muted);font-size:14px}
+    .service-price{margin-top:17px;font-weight:900;color:#dffef5}
+    .service-price small{color:var(--muted);font-weight:500}
+
+    .pricing{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .price-box{background:rgba(16,31,51,.8);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+    .price-row{display:flex;justify-content:space-between;gap:20px;padding:17px 20px;border-bottom:1px solid var(--line)}
+    .price-row:last-child{border-bottom:0}
+    .price-row span:first-child{color:#dce7f3}
+    .price-row span:last-child{font-weight:900;white-space:nowrap}
+    .note{color:var(--muted);font-size:13px;margin-top:15px}
+
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .step{padding:25px;background:linear-gradient(145deg,rgba(20,38,61,.8),rgba(10,25,42,.7));border:1px solid var(--line);border-radius:var(--radius)}
+    .num{font-size:13px;font-weight:900;color:var(--accent);margin-bottom:15px}
+    .step h3{margin-bottom:7px}.step p{color:var(--muted);font-size:14px}
+
+    .faq{display:grid;gap:12px;max-width:850px}
+    details{background:rgba(16,31,51,.8);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+    summary{cursor:pointer;font-weight:800}
+    details p{color:var(--muted);padding-top:12px;font-size:14px}
+
+    .contact{
+      background:linear-gradient(135deg,rgba(32,214,161,.12),rgba(28,169,255,.10));
+      border:1px solid rgba(255,255,255,.10);border-radius:30px;padding:38px
+    }
+    .contact-grid{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}
+    .phone{font-size:clamp(27px,4vw,42px);font-weight:950;margin-top:10px}
+    .phone a{color:#fff}
+    .small{color:var(--muted);font-size:14px}
+
+    footer{padding:30px 0 100px;color:var(--muted);font-size:13px}
+    .footer-row{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:24px}
+
+    .floating-call{
+      position:fixed;right:18px;bottom:18px;z-index:60;
+      width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+      background:var(--accent);color:#03130e;font-size:25px;font-weight:900;
+      box-shadow:0 12px 35px rgba(32,214,161,.3)
+    }
+
+    @media(max-width:850px){
+      .navlinks{display:none}
+      .hero{padding-top:55px}
+      .hero-grid,.pricing,.contact-grid{grid-template-columns:1fr}
+      .services,.steps{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:560px){
+      h1{letter-spacing:-2px}
+      .services,.steps{grid-template-columns:1fr}
+      .hero-card{padding:23px}
+      section{padding:60px 0}
+      .contact{padding:27px}
+      .footer-row{flex-direction:column}
+      .navcall{padding:10px 12px;font-size:13px}
+    }
+  </style>
+
+  <!-- Google uchun biznes haqida strukturali ma'lumot.
+       Haqiqiy sayt manzili va aniq ish manzili bo‘lsa, keyin qo‘shish mumkin. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "Falonchi Santexnik",
+    "description": "Toshkent hududida santexnika xizmatlari.",
+    "telephone": "+998901234567",
+    "areaServed": {
+      "@type": "City",
+      "name": "Toshkent",
+      "addressCountry": "UZ"
+    },
+    "serviceType": [
+      "Santexnika ta'miri",
+      "Smesitel o‘rnatish",
+      "Unitaz o‘rnatish",
+      "Rakovina va sifon o‘rnatish",
+      "Quvur ta'miri",
+      "Kanalizatsiya tozalash"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container">
+      <nav>
+        <a class="logo" href="#bosh">Falonchi <span>Santexnik</span></a>
+        <div class="navlinks">
+          <a href="#xizmatlar">Xizmatlar</a>
+          <a href="#narxlar">Narxlar</a>
+          <a href="#savol">Savol-javob</a>
+          <a href="#aloqa">Aloqa</a>
+        </div>
+        <a class="navcall" href="tel:+998901234567">📞 Qo‘ng‘iroq</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="bosh">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge"><span class="dot"></span> Toshkent bo‘ylab santexnika xizmati</div>
+          <h1>Uy va ofis uchun <span>santexnik</span> xizmati</h1>
+          <p>
+            Kran, smesitel, unitaz, rakovina, sifon, quvur va kanalizatsiya bilan bog‘liq
+            ishlarni bajaraman. Muammoni ko‘rib, ish boshlashdan oldin narxni kelishib olamiz.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="tel:+998901234567">📞 +998 90 123 45 67</a>
+            <a class="btn btn-secondary" href="#narxlar">Narxlarni ko‘rish →</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="tool-icon">🔧</div>
+          <h3>Falonchi Santexnik</h3>
+          <p>Toshkent hududida maishiy santexnika xizmatlari.</p>
+          <div class="mini-list">
+            <div><span class="check">✓</span> Kelishilgan narx</div>
+            <div><span class="check">✓</span> Kerakli ishlar bo‘yicha maslahat</div>
+            <div><span class="check">✓</span> Telefon orqali murojaat</div>
+            <div><span class="check">✓</span> Toshkent bo‘ylab xizmat</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="xizmatlar">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Xizmatlar</div>
+            <h2>Qanday ishlarni bajaraman?</h2>
+          </div>
+          <p>Quyidagi narxlar Toshkentdagi 2026-yil ochiq bozor ma’lumotlariga yaqin taxminiy ish haqi sifatida berilgan. Materiallar odatda alohida hisoblanadi.</p>
+        </div>
+
+        <div class="services">
+          <article class="service">
+            <div class="icon">🚰</div>
+            <h3>Smesitel / kran</h3>
+            <p>Oshxona yoki hammomdagi smesitelni o‘rnatish yoki almashtirish.</p>
+            <div class="service-price">200 000 so‘mdan</div>
+          </article>
+          <article class="service">
+            <div class="icon">🚽</div>
+            <h3>Unitaz</h3>
+            <p>Unitazni o‘rnatish, almashtirish va ulash ishlari.</p>
+            <div class="service-price">250 000 so‘mdan</div>
+          </article>
+          <article class="service">
+            <div class="icon">🛁</div>
+            <h3>Rakovina / sifon</h3>
+            <p>Rakovina, sifon va suv chiqishlarini ulash va ta’mirlash.</p>
+            <div class="service-price">150 000 so‘mdan</div>
+          </article>
+          <article class="service">
+            <div class="icon">🧰</div>
+            <h3>Quvur ta’miri</h3>
+            <p>Suv quvurlaridagi sizib chiqish va ulanish muammolarini bartaraf etish.</p>
+            <div class="service-price">150 000 so‘mdan</div>
+          </article>
+          <article class="service">
+            <div class="icon">🌀</div>
+            <h3>Kanalizatsiya</h3>
+            <p>Rakvina, vanna yoki kanalizatsiyadagi tiqilishni ochish.</p>
+            <div class="service-price">200 000 so‘mdan</div>
+          </article>
+          <article class="service">
+            <div class="icon">🔍</div>
+            <h3>Tekshiruv / diagnostika</h3>
+            <p>Muammoni aniqlash va bajariladigan ish bo‘yicha maslahat.</p>
+            <div class="service-price">50 000 so‘mdan</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="narxlar">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Narxlar</div>
+            <h2>Taxminiy narxlar</h2>
+          </div>
+          <p>Aniq narx ishning murakkabligi, joyi va kerakli materiallarga qarab aniqlanadi.</p>
+        </div>
+
+        <div class="pricing">
+          <div class="price-box">
+            <div class="price-row"><span>Diagnostika</span><span>50 000 so‘mdan</span></div>
+            <div class="price-row"><span>Smesitel o‘rnatish/almashtirish</span><span>200 000 so‘mdan</span></div>
+            <div class="price-row"><span>Unitaz o‘rnatish</span><span>250 000 so‘mdan</span></div>
+            <div class="price-row"><span>Rakovina / sifon</span><span>150 000 so‘mdan</span></div>
+          </div>
+          <div class="price-box">
+            <div class="price-row"><span>Kanalizatsiya ochish</span><span>200 000 so‘mdan</span></div>
+            <div class="price-row"><span>Murakkab tiqilishni ochish</span><span>400 000 so‘mdan</span></div>
+            <div class="price-row"><span>Avariya chaqiruvi</span><span>150 000 so‘mdan</span></div>
+            <div class="price-row"><span>Minimal buyurtma</span><span>150 000 so‘mdan</span></div>
+          </div>
+        </div>
+        <p class="note">* Narxlar faqat ish uchun taxminiy ko‘rsatkich. Smesitel, quvur, sifon, rezina, armatura va boshqa materiallar alohida hisoblanishi mumkin.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Jarayon</div>
+            <h2>Buyurtma berish oson</h2>
+          </div>
+        </div>
+        <div class="steps">
+          <div class="step"><div class="num">01 — ALOQA</div><h3>Qo‘ng‘iroq qiling</h3><p>Muammoni telefon orqali qisqacha tushuntirasiz.</p></div>
+          <div class="step"><div class="num">02 — BAHOLASH</div><h3>Muammo aniqlanadi</h3><p>Ish turi va taxminiy narx kelishib olinadi.</p></div>
+          <div class="step"><div class="num">03 — ISH</div><h3>Ta’mirlash</h3><p>Kelishilgan ish bajariladi va natija tekshiriladi.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="savol">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Savol-javob</div>
+            <h2>Ko‘p beriladigan savollar</h2>
+          </div>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Toshkentning qaysi hududlariga borasiz?</summary>
+            <p>Toshkent shahri bo‘ylab xizmat ko‘rsatish mumkin. Aniq manzilni telefon orqali ayting.</p>
+          </details>
+          <details>
+            <summary>Materiallarni kim sotib oladi?</summary>
+            <p>Materiallarni mijoz o‘zi olishi yoki kerakli detalni kelishib olish mumkin. Material narxi ish haqiga kirmaydi.</p>
+          </details>
+          <details>
+            <summary>Narx oldindan ma’lummi?</summary>
+            <p>Telefon orqali taxminiy narx aytiladi. Murakkab ishlar bo‘yicha aniq narx muammoni ko‘rgandan keyin kelishiladi.</p>
+          </details>
+          <details>
+            <summary>Qanday bog‘lanaman?</summary>
+            <p>Telefon raqami: +998 90 123 45 67. Quyidagi tugmani bosib to‘g‘ridan-to‘g‘ri qo‘ng‘iroq qilishingiz mumkin.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="aloqa">
+      <div class="container">
+        <div class="contact">
+          <div class="contact-grid">
+            <div>
+              <div class="eyebrow">Aloqa</div>
+              <h2>Santexnik kerakmi?</h2>
+              <p class="small">Muammoingizni ayting — xizmat va taxminiy narx bo‘yicha ma’lumot oling.</p>
+              <div class="phone"><a href="tel:+998901234567">+998 90 123 45 67</a></div>
+            </div>
+            <div class="actions">
+              <a class="btn btn-primary" href="tel:+998901234567">📞 Hozir qo‘ng‘iroq qilish</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-row">
+        <div>© <span id="year"></span> Falonchi Santexnik</div>
+        <div>Toshkent • Santexnika xizmatlari • +998 90 123 45 67</div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-call" href="tel:+998901234567" aria-label="Falonchi Santexnikka qo‘ng‘iroq qilish">☎</a>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
