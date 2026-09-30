@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asrbekshodiev1022-hue.github.io/-.-/sitemap.xml 
